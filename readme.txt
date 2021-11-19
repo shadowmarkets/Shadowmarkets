@@ -30,9 +30,11 @@ NOTE: everytime you interact with the chain, you can see what is happening on ga
 	This start the gui.
 	Input the public and private key of the account you want to use.
 	Then you can choose to use that account to create or buy options -> by clicking create/buy
+	
 	If choose create, input the information that is asked (leverage, cap, strikeprice, price)
 	NOTE: for stirkeprice input at most 2 decimals in form int.dd, for other values for now only enter INTEGERS
-		The progrma will create the option and make te required payment (leverage*cap) automatically to chain.
+	The progrma will create the option and make te required payment (leverage*cap) automatically to chain.
+	
 	If choose buy:
 		click view to see al available options (whihc have not been bought or resolved yet)
 		enter the option number (which you can see in the table) to buy it from the selected account. 
